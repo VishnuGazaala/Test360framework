@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" verbose="2" parallel="classes" thread-count="5">
+    <listeners>
+        <listener class-name="Utility.ItestListener"></listener>
+    </listeners>
+    <test name="C:/Users/dakav/IdeaProjects/Testng_360Framework">
+        <classes>
+            <class name="Testcases.Logintest"/>
+            <class name="Testcases.datadriventest"/>
+            <class name="Testcases.DashboardTest"/>
+            <class name="Testcases.SearchTestcase"/>
+            <class name="Testcases.Paymenttest">
+            </class>
+        </classes>
+    </test>
+</suite>
